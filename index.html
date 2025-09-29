@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Livo Code Editor</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Livo Frontend Deployment Platform</h1>
+</header>
+
+<div class="editor-container">
+    <div class="editor">
+        <h2>HTML</h2>
+        <textarea id="html-code" placeholder="Write HTML here"></textarea>
+    </div>
+    <div class="editor">
+        <h2>CSS</h2>
+        <textarea id="css-code" placeholder="Write CSS here"></textarea>
+    </div>
+    <div class="editor">
+        <h2>JavaScript</h2>
+        <textarea id="js-code" placeholder="Write JS here"></textarea>
+    </div>
+    <div class="editor">
+        <h2>Python (app.py)</h2>
+        <textarea id="py-code" placeholder="Write app.py here"></textarea>
+    </div>
+</div>
+
+<div class="controls">
+    <button id="package-btn">Package for Livo</button>
+</div>
+
+<h2>Preview Website</h2>
+<iframe id="preview"></iframe>
+
+<script src="main.js"></script>
+</body>
+</html>
